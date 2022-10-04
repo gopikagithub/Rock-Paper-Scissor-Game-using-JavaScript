@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    height:80vh;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    color: rgb(66, 32, 32);
+}
+
+.bodyContainer{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 400px;
+    border: 2px solid rgb(36, 34, 34);
+    border-radius: 30px;
+    padding: 20px 5px 20px 5px;
+    background-color:  rgb(184, 173, 173);
+}
+.text{
+    padding-left: 30px;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    width: 100px;
+    border-radius: 30px;
+    background-color: rgb(61, 54, 54);
+    color: bisque;
+    font-size: large;
+    line-height:  30px; 
+    cursor: pointer;
+}
