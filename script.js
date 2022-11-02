@@ -27,7 +27,7 @@ const computerguess=()=>{
             computerValue="Paper";
             break;
         case 3:
-          computerValue="Scissors";  
+          computerValue="Scissor";  
           break;
     }
     
@@ -35,14 +35,15 @@ const computerguess=()=>{
 
 
 const winner=()=>{
-    if(playerValue==computerValue){
+
+    if(playerValue===computerValue){
         return`Draw!!!`;
         
     } else if(computerValue=="Rock"){
         return(playerValue=="Paper")?`You Won`:`You Loose`;
     } else if(computerValue=="Paper"){
-        return(playerValue=="Scissors")?`You Won`:`You Loose`;
-    } else if(computerValue=="Scissors"){
+        return(playerValue=="Scissor")?`You Won`:`You Loose`;
+    } else if(computerValue=="Scissor"){
         return(playerValue=="Rock")?`You Won`:`You Loose`;
     }
 }
